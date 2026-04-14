@@ -60,7 +60,7 @@ def calculate_score(skills):
 # ---------------- UI ----------------
 st.set_page_config(page_title="AI Resume Analyzer", layout="wide")
 
-st.title("🚀 AI Resume Analyzer & Job Matcher")
+st.title(" AI Resume Analyzer & Job Matcher")
 
 uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx", "txt"])
 
